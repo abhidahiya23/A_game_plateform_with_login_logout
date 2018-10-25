@@ -33,7 +33,7 @@ $password=$_POST["password"];
                
 								   header("Location:index.php?class=sucessfully");
 }
-}else  {  header("Location:index.php?class=error&e=Please Try again Later");
+}else  {  header("Location:index.php?class=error&e=Please Try Again Later Smoothly");
 				}
 }
 else  {  header("Location:index.php?class=error&e=Email:$email already exist");
